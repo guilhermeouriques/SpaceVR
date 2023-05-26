@@ -1,8 +1,11 @@
+using TMPro;
 using UnityEngine;
 
 public class GameManager : MonoBehaviour {
 
     public static GameManager Instance;
+
+    public TMP_Text scoreText;
 
     public int portalIndex { get; private set; }
 
@@ -42,9 +45,14 @@ public class GameManager : MonoBehaviour {
         return false;
     }
 
+    private void UpdateScoreText() {
+        scoreText.text = portalIndex.ToString();
+    }
+
     public void OnPortalTrigger() {
         portalIndex++;
 
+        UpdateScoreText();
         ResetPortals();
         EnableCurrentPortal();
     }

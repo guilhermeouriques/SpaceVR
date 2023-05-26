@@ -416,6 +416,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ca1df0c9a5ca1754e8832034f24b1f7b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  scoreText: {fileID: 907138679}
   portalsContainer: {fileID: 16528552}
 --- !u!4 &698848429
 Transform:
@@ -511,6 +512,17 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 732330521463126892, guid: ca669c46bf4349145a095d7391dbdac7, type: 3}
   m_PrefabInstance: {fileID: 7914833449563476468}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &907138679 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2721743838895505288, guid: ca669c46bf4349145a095d7391dbdac7, type: 3}
+  m_PrefabInstance: {fileID: 7914833449563476468}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &907815535
 PrefabInstance:
   m_ObjectHideFlags: 0
