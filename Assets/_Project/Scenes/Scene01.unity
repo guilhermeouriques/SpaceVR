@@ -1257,10 +1257,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 568053182403262702, guid: ca669c46bf4349145a095d7391dbdac7, type: 3}
-      propertyPath: XRRigToEnable
-      value: 
-      objectReference: {fileID: 3818646963026878016}
     - target: {fileID: 3275538338692278092, guid: ca669c46bf4349145a095d7391dbdac7, type: 3}
       propertyPath: XRRigToEnable
       value: 
@@ -1269,10 +1265,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Spaceship_01B_01
       objectReference: {fileID: 0}
-    - target: {fileID: 4564087756241965569, guid: ca669c46bf4349145a095d7391dbdac7, type: 3}
-      propertyPath: XRRigToDisable
-      value: 
-      objectReference: {fileID: 3818646963026878016}
     - target: {fileID: 6660796604555208033, guid: ca669c46bf4349145a095d7391dbdac7, type: 3}
       propertyPath: m_RootOrder
       value: 6
